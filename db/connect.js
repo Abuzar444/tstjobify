@@ -6,5 +6,5 @@ mongoose.set('strictQuery', false)
 const connectDB = async (url) => {
     return mongoose.connect(url)
 }
-
+// this change
 export default connectDB
